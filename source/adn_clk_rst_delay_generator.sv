@@ -15,7 +15,7 @@ This module is primarily used in clock and reset management subsystems where a s
 | 1.0      | 2026-08-13 | Adnan Sami Anirban | Stable release                                         |
 
 Author : Adnan Sami Anirban (adnananirban259@gmail.com)
-This file is part of ADN-VLSI/adn_clk_rst
+This file is part of adnsemicon/adn_clk_rst
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

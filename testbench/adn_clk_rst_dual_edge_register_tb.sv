@@ -22,7 +22,7 @@
 | 1.0      | 2026-09-07 | Md Sakhawat Hossain Sabbir | Stable release                         |
 
 Author : Md Sakhawat Hossain Sabbir (sabbirone939@gmail.com)
-This file is part of ADN-VLSI/adn_clk_rst
+This file is part of adnsemicon/adn_clk_rst
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

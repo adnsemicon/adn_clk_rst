@@ -29,7 +29,7 @@ This module is ideal for high-throughput data interfaces (e.g., DDR memory contr
 | 1.0      | 2026-08-09 | Mohiuddin Reyad | Stable release                                         |
 
 Author : Mohiuddin Reyad (mreyad30207@gmail.com)
-This file is part of ADN-VLSI/adn_clk_rst
+This file is part of adnsemicon/adn_clk_rst
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

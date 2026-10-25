@@ -15,7 +15,7 @@
 | 1.0      | 2026-08-23 | Shuparna Haque  | Stable release                                         |
 
 Author : Shuparna Haque (sheikhshuparna3108@gmail.com)
-This file is part of ADN-VLSI/adn_clk_rst
+This file is part of adnsemicon/adn_clk_rst
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information
