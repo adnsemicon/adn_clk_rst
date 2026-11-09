@@ -390,22 +390,32 @@ module adn_clk_rst_clk_mux_tb;
     forever begin
       @(posedge clk_o);
 
+      if (arst_ni !== 1'b1)
+        continue;
+
       high_start_time = $time;
 
-      @(negedge clk_o);
+      @(negedge clk_o or negedge arst_ni);
 
-      high_width = $time - high_start_time;
+      if (arst_ni === 1'b1) begin
+        high_width = $time - high_start_time;
 
-      if (high_width > 0 && high_width < MIN_HIGH_PULSE) begin
+        if (high_width > 0 && high_width < MIN_HIGH_PULSE) begin
 
-        high_pulse_errors++;
+          $display(
+              "ERROR: RUNT HIGH PULSE | width=%0t | time=%0t",
+              high_width,
+              $time
+          );
+       high_pulse_errors++;
 
-        $display(
-            "ERROR: RUNT HIGH PULSE | width=%0t | time=%0t",
-            high_width,
-            $time
-        );
+          $display(
+              "ERROR: RUNT HIGH PULSE | width=%0t | time=%0t",
+              high_width,
+              $time
+          );
 
+        end
       end
     end
   end
